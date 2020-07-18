@@ -19,5 +19,5 @@ def reverse_array
 end
 
 def kesha_maker
-
+array.collect {|array| array.delete(array[2]).insert(2,"$")}
 end
